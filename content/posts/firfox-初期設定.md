@@ -32,4 +32,5 @@ firefoxの初期設定をココにまとめます。
 
 
 関係ないが、最近Amazonで買ったファンが非常に良かった
+
 https://amzn.to/4k7oB2p
