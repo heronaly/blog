@@ -13,7 +13,7 @@ motto = "べったべった だんだん。"
 rss = true
 stickyNav = true
 description = "ぴっぴの記録～"
-avatar = "https://github.com/heronaly/blog/blob/main/assets/avat.png?raw=true"
+avatar = "../assets/avat.png"
 noDefaultSummaryCover = true
 showTableOfContents = true
 showSummaryCoverInPost = true
