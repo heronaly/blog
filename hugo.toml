@@ -5,6 +5,7 @@ languageCode = "ja"
 title = 'ぴっぴのライフログ'
 hasCJKLanguage = true
 [params]
+author = "hayapi"
 lightTheme = "emerald"
 darkTheme = "forest"
 headerTitle = "ぴっぴのライフログ"
