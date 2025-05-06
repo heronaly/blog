@@ -8,7 +8,7 @@ categories:
 tags:
   - 初期設定
   - firefox
-draft: true
+draft: false
 ---
 
 firefoxの初期設定をココにまとめます。
