@@ -1,3 +1,4 @@
+baseURL = “https://blog.19194545.xyz/”
 theme = "dream"
 defaultContentLanguage = "ja"
 languageCode = "ja"
@@ -11,8 +12,7 @@ motto = "べったべった だんだん。"
 rss = true
 stickyNav = true
 description = "ぴっぴの記録～"
-avatar = "/assets/avatar.jpg"
-backgroundImage = "assets/avatar.jpg"
+avatar = "asseets/avatar.jpg"
 noDefaultSummaryCover = true
 showTableOfContents = true
 showSummaryCoverInPost = true
