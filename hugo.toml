@@ -1,4 +1,4 @@
-baseURL = “https://blog.19194545.xyz/”
+baseURL = 'https://blog.19194545.xyz/'
 theme = "dream"
 defaultContentLanguage = "ja"
 languageCode = "ja"
