@@ -4,6 +4,11 @@ defaultContentLanguage = "ja"
 languageCode = "ja"
 title = 'ぴっぴのライフログ'
 hasCJKLanguage = true
+[build]
+command = "hugo"
+publish = "public"
+[build.environment]
+HUGO_VERSION = "0.147.2"
 [params]
 lightTheme = "emerald"
 darkTheme = "forest"
