@@ -29,3 +29,7 @@ firefoxの初期設定をココにまとめます。
     ブックマークを新規タブ
 
     browser.tabs.loadBookmarksInTabs =  true
+
+
+関係ないが、最近Amazonで買ったファンが非常に良かった
+https://amzn.to/4k7oB2p
