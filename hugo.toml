@@ -1,5 +1,6 @@
 theme = "dream"
 defaultContentLanguage = "ja"
+languageCode = "ja"
 title = 'ぴっぴのライフログ'
 hasCJKLanguage = true
 [params]
