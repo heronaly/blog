@@ -2,7 +2,6 @@
 title: Firfox 初期設定
 date: 2025-05-07T00:44:48+09:00
 lastmod: 2025-05-07T00:44:48+09:00
-cover: /img/cover.jpg
 categories:
   - browser
 tags:
