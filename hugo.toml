@@ -1,0 +1,19 @@
+theme = "dream"
+defaultContentLanguage = "ja"
+title = 'ぴっぴのライフログ'
+hasCJKLanguage = true
+[params]
+lightTheme = "emerald"
+darkTheme = "forest"
+headerTitle = "ぴっぴのライフログ"
+motto = "べったべった だんだん。"
+rss = true
+stickyNav = true
+description = "ぴっぴの記録～"
+avatar = "/assets/avatar.jpg"
+backgroundImage = "assets/avatar.jpg"
+noDefaultSummaryCover = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
