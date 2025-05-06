@@ -3,14 +3,14 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posts | ぴっぴのライフログ</title>
 
     
 
-<link rel="canonical" href="https://blog.19194545.xyz/posts/" />
+<link rel="canonical" href="http://localhost:1313/posts/" />
 
 
 
@@ -25,7 +25,7 @@
 <meta name="generator" content="Hugo 0.147.1">
 
 
-<meta property="og:url" content="https://blog.19194545.xyz/posts/">
+<meta property="og:url" content="http://localhost:1313/posts/">
   <meta property="og:site_name" content="ぴっぴのライフログ">
   <meta property="og:title" content="Posts">
   <meta property="og:description" content="ぴっぴの記録～">
@@ -42,9 +42,7 @@
 
 
 
-  
-
-<link rel="stylesheet" href="/css/output.min.css" />
+<link rel="stylesheet" href="/css/output.css" />
 
 
 
@@ -74,14 +72,14 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/asseets/avatar.jpg" alt="ぴっぴのライフログ" />
+          <img src="/asseets/avat.png" alt="ぴっぴのライフログ" />
         </div>
       </div>
 
       
       <div>
         
-        <a href="https://blog.19194545.xyz/" class="text-lg font-semibold cursor-pointer">
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
           ぴっぴのライフログ
         </a>
         
@@ -131,9 +129,12 @@
 
 
 
-
-
-
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="アーカイブ">
+    <ion-icon name="archive"></ion-icon>
+    アーカイブ
+  </a>
+</li>
 
 
 
@@ -182,9 +183,9 @@
 
       
       
-
-
-
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="アーカイブ">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
 
 
       
@@ -228,6 +229,26 @@
   <div class="max-w-[65ch] mx-auto mt-8 lg:mt-12">
     <ul class="timeline timeline-vertical">
       
+      
+      <li class="[--timeline-col-start:64px]">
+        <hr class="dark:bg-base-content" />
+        <div class="timeline-start justify-self-start!">
+          <div class="text-lg font-semibold">2025</div>
+        </div>
+        <div class="timeline-middle flex items-center mx-8 my-2">
+          <ion-icon name="time"></ion-icon>
+        </div>
+        <div class="timeline-end timeline-box dark:border-base-content/60 prose dark:prose-invert my-8 text-sm">
+          <ul>
+            
+            <li>
+              <a href="/posts/%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB/">とりあえず簡潔なBlog</a>
+            </li>
+            
+          </ul>
+        </div>
+        <hr class="dark:bg-base-content" />
+      </li>
       
     </ul>
   </div>
@@ -361,16 +382,12 @@
 
   
   
-    
-  
-  <script src="/js/grid.min.js"></script>
+  <script src="/js/grid.js"></script>
 
 
 
 
-  
-
-<script src="/js/main.min.js"></script>
+<script src="/js/main.js"></script>
 
      
 

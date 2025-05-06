@@ -3,14 +3,14 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>検索 | ぴっぴのライフログ</title>
 
     
 
-<link rel="canonical" href="https://blog.19194545.xyz/search/" />
+<link rel="canonical" href="http://localhost:1313/search/" />
 
 
 
@@ -22,7 +22,7 @@
 <meta name="generator" content="Hugo 0.147.1">
 
 
-<meta property="og:url" content="https://blog.19194545.xyz/search/">
+<meta property="og:url" content="http://localhost:1313/search/">
   <meta property="og:site_name" content="ぴっぴのライフログ">
   <meta property="og:title" content="ぴっぴのライフログ">
   <meta property="og:description" content="ぴっぴの記録～">
@@ -39,9 +39,7 @@
 
 
 
-  
-
-<link rel="stylesheet" href="/css/output.min.css" />
+<link rel="stylesheet" href="/css/output.css" />
 
 
 
@@ -71,14 +69,14 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/asseets/avatar.jpg" alt="ぴっぴのライフログ" />
+          <img src="/asseets/avat.png" alt="ぴっぴのライフログ" />
         </div>
       </div>
 
       
       <div>
         
-        <a href="https://blog.19194545.xyz/" class="text-lg font-semibold cursor-pointer">
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
           ぴっぴのライフログ
         </a>
         
@@ -128,9 +126,12 @@
 
 
 
-
-
-
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="アーカイブ">
+    <ion-icon name="archive"></ion-icon>
+    アーカイブ
+  </a>
+</li>
 
 
 
@@ -179,9 +180,9 @@
 
       
       
-
-
-
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="アーカイブ">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
 
 
       
@@ -396,25 +397,23 @@ x-data="{
 
   
   
-    
-  
-  <script src="/js/grid.min.js"></script>
+  <script src="/js/grid.js"></script>
 
 
 
 
-  
-
-<script src="/js/main.min.js"></script>
+<script src="/js/main.js"></script>
 
     
+
+
 
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" integrity="sha256-42IbU8t3tOwwbexB7ZVRHm3YDRf65aBPPjRtIUufj5I=" crossorigin="anonymous"></script>
 <script>
-  var fuseData = [];
+  var fuseData = [{"author":null,"avatar":null,"categories":null,"description":"\u003cp\u003eとりあえずこちらのブログで自分のライフログについてまとめていきます。\u003c/p\u003e","readingTime":1,"tags":null,"title":"とりあえず簡潔なBlog","url":"/posts/%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB/"}];
   var fuseOptions = {
     keys: [
       "title",
